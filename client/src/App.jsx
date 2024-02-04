@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Dashboard from './pages/Dashboard'
 import Header from './components/Header'
-
+import FooterCom from './components/Footer'
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
       </Routes>
+      <FooterCom/>
     </BrowserRouter>
   )
 }
